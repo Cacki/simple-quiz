@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="application.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Simple quiz</h1>
+      <div class="score">
+        Your answeared <span id="percent">0%</span> of the questions correctly!
+      </div>
+    </header>
+    <main>
+      <h2>Questions</h2>
+      <form>
+        <div class="question-wrapper">
+          <h3>Which country has won the most World Cup titles?</h3>
+          <div class="answear">
+            <input type="radio" name="question1" id="i1" value="A" checked/>
+            <label class="input-label" for="i1">A&rpar; Brazil</label>
+          </div>
+          <div class="answear">
+            <input type="radio" name="question1" id="i2" value="B" />
+            <label class="input-label" for="i2">B&rpar; Germany</label>
+          </div>
+        </div>
+        <div class="question-wrapper">
+          <h3>Who is the all-time leading goalscorer in the English Premier League?</h3>
+          <div class="answear">
+            <input type="radio" name="question2" id="i3" value="A" checked/>
+            <label class="input-label" for="i3">A&rpar; Alan Shearer</label>
+          </div>
+          <div class="answear">
+            <input type="radio" name="question2" id="i4" value="B" />
+            <label class="input-label" for="i4">B&rpar; Wayne Rooney</label>
+          </div>
+        </div>
+        <div class="question-wrapper">
+          <h3>Which footballer has won the most Ballon d'Or awards?</h3>
+          <div class="answear">
+            <input type="radio" name="question3" id="i5" value="A" checked/>
+            <label class="input-label" for="i5">A&rpar; Cristiano Ronaldo</label>
+          </div>
+          <div class="answear">
+            <input type="radio" name="question3" id="i6" value="B" />
+            <label class="input-label" for="i6">B&rpar; Lionel Messi</label>
+          </div>
+        </div>
+        <div class="question-wrapper">
+          <h3>Which club has won the most UEFA Champions League titles?</h3>
+          <div class="answear">
+            <input type="radio" name="question4" id="i7" value="A" checked/>
+            <label class="input-label" for="i7">A&rpar; Barcelona</label>
+          </div>
+          <div class="answear">
+            <input type="radio" name="question4" id="i8" value="B" />
+            <label class="input-label" for="i8">B&rpar; Real Madrid</label>
+          </div>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

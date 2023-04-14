@@ -1,0 +1,77 @@
+body {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.score {
+  display: none;
+}
+h1 {
+  font-size: 54px;
+  font-weight: 500;
+  color: #0051AD;
+}
+span {
+  padding: 0 15px;
+  font-size: 44px;
+  font-weight: 600;
+  color: #0051AD;
+}
+main {
+  background-color: #0051AD;
+  padding: 40px 60px;
+  color: white;
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+}
+h2 {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 550;
+}
+
+.question-wrapper {
+  margin: 10px auto;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.answear {
+  padding-left: 20px;
+  padding-bottom: 7px;
+}
+h3 {
+  font-size: 23px;
+  font-weight: 500;
+}
+label {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 400;
+}
+.submit {
+  display:flex;
+  flex-direction: center;
+  justify-content: center;
+}
+input[type="submit"] {
+  background-color: white;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 500;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
